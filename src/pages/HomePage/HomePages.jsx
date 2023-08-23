@@ -1,4 +1,4 @@
-import React from 'react'
+import './HomePages.module.scss'
 
 const HomePages = () => {
   return (
