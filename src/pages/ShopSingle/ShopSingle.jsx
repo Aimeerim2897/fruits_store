@@ -1,10 +1,13 @@
 import React from 'react'
-
-import './ShopSingle.scss'
-const ShopSIngle = () => {
+import mainBg from '../../assets/shopSingle.png'
+import cls from './ShopSingle.module.scss'
+import MainBackground from '../../components/MainBackground/MainBackground'
+const ShopSingle = () => {
   return (
-    <div>ShopSIngle</div>
-  )
+		<div>
+			<MainBackground backgroundImage={mainBg}>Shop Single</MainBackground>
+		</div>
+	);
 }
 
-export default ShopSIngle
+export default ShopSingle
