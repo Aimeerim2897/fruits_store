@@ -1,0 +1,90 @@
+.healthBanner {
+	display: flex;
+	justify-content: space-between;
+	width: 1337px;
+	align-items: center;
+	margin-bottom: 90px;
+	margin-top: 133px;
+  img{
+    position: relative;
+  }
+  &_label{
+	background-color: #274c5b;
+	color: white;
+	font-size: 15px;
+	padding: 5px 12px;
+	border-radius: 8px;
+	margin-top: -480px;
+	margin-left: 30px;
+	position: absolute;
+  }
+	&_info {
+		&_top {
+			margin-bottom: 27px;
+			&_text {
+				font-size: 18px;
+				color: #525c60;
+				margin-bottom: 35px;
+			}
+			h5 {
+				font-size: 40px;
+				color: #274c5b;
+				line-height: 46.88px;
+				font-weight: 600;
+				margin-bottom: 9px;
+			}
+			img {
+				margin-bottom: 9px;
+			}
+			s {
+				font-size: 20px;
+				color: #b8b8b8;
+				font-weight: 600;
+			}
+			span {
+				margin-left: 9px;
+				font-size: 25px;
+				color: #274c5b;
+				font-weight: 700;
+			}
+		}
+		&_bottom {
+			display: flex;
+			align-items: center;
+			&_counter {
+				border: 2px solid #274c5b;
+				font-size: 20px;
+				font-weight: 700;
+				color: #274c5b;
+				padding: 28px 61px;
+				border-radius: 16px;
+				margin-right: 20px;
+			}
+			p {
+				color: #274c5b;
+				font-size: 20px;
+				font-weight: 700;
+				margin-right: 22px;
+			}
+		}
+	}
+}
+.descriptionBanner{
+  &_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 27px;
+  }
+  &_paragraph{
+	width: 1137px;
+	margin-left: 150px;
+	text-align: center;
+	color: #525c60;
+	margin-bottom: 140px;
+  }
+}
+
+
+
+
