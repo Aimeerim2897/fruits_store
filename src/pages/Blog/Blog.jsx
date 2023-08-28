@@ -7,9 +7,10 @@ import human from "../../assets/human.png"
 import girl from "../../assets/girl.png"
 import garbages from "../../assets/garbages.png"
 
-import MainBackground from '../../components/MainBackground/MainBackground'
+import MainBackground from '../../components/ui/MainBackground/MainBackground'
 import NewsCard from '../../components/NewsCard/NewsCard'
 import cls from './Blog.module.scss'
+import SubscribeBanner from '../../components/ui/SubscribeBanner/SubscribeBanner'
 
 const userIcon = (
   <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -136,7 +137,9 @@ const Blog = () => {
           </div>
 
         </div>
-        <div className="subscribe"></div>
+        <div className="subscribe">
+          <SubscribeBanner />
+        </div>
       </div>
     </div>
   )

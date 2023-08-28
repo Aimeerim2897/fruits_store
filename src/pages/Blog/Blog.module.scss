@@ -2,16 +2,19 @@
   padding-top: 120px;
   display: flex;
   justify-content: space-between;
+  column-gap: 20px;
 }
-.newsContentWrap{
+
+.newsContentWrap {
   margin-bottom: 120px;
 }
+
 .newsContent {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -15px;
-  width: 612px;
+  bottom: 17px;
+  width: 580px;
   height: 283px;
   background-color: #fff;
   box-shadow: 0 20px 35px rgba(167, 167, 167, 0.25);
@@ -35,7 +38,7 @@
 .info {
   color: #274C5B;
   font-family: Roboto;
-  font-size: 25px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -76,7 +79,7 @@
 .arrowIcon {
   position: relative;
   left: 102px;
-  top: -56px;
+  top: -66px;
 }
 
 .newsDate {
@@ -89,8 +92,8 @@
   border-radius: 50%;
 }
 
-.nov{
-color: #274C5B;
+.nov {
+  color: #274C5B;
   text-align: center;
   font-family: Roboto;
   font-size: 25px;
@@ -98,6 +101,6 @@ color: #274C5B;
   font-weight: 800;
   line-height: normal;
   position: relative;
-  padding: 12px  18px 9px 20px;
+  padding: 12px 18px 9px 20px;
   height: 51px;
 }
