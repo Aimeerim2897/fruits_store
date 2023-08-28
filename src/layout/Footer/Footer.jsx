@@ -2,6 +2,7 @@ import cls from './Footer.module.scss'
 
 const Footer = () => {
   return (
+    <div className='container'>
     <div className={cls.footer}>
       <div className={cls.boxFoot}>
         <div className={cls.box1}>
@@ -34,7 +35,7 @@ const Footer = () => {
             <img src="/src/assets/4.png" alt="/pinterest.com" />
           </div>
         </div>
-        <div className={cls.line2} style={{borderRight: "1px solid red", marginTop: "20px"}}></div>
+        <div className={cls.line2} style={{borderRight: "1px solid #D4D4D4", marginTop: "20px"}}></div>
         <div className={cls.box3}>
           <h1>Utility Pages</h1>
           <div className={cls.textBox3}>
@@ -52,6 +53,7 @@ const Footer = () => {
 
         </div>
       </div>
+    </div>
     </div>
   )
 }

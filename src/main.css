@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +9,7 @@
 .container {
   width: 1400px;
   margin: 0 auto;
-
+}
+ul , ol {
+  list-style: none;
 }

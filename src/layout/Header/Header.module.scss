@@ -1,10 +1,11 @@
 .header {
   border: 1px solid red;
-  width: 1919px;
-  height: 204px;
+  // width: 1919px;
+  // height: 204px;
   .boxHed {
     display: flex;
-    padding: 69px 162px;
+    justify-content: space-between;
+    align-items: center;
   }
   .logoHed {
     display: flex;
@@ -13,6 +14,7 @@
       display: flex;
       align-items: center;
       color: #274C5B;
+      margin-right: 30px;
       img {
         width: 45px;
         height: 53px;
@@ -21,13 +23,8 @@
     }
     .menuHedText {
       display: flex;
-      margin-left: 150px;
+      gap: 60px;
       color: #274C5B;
-      p {
-        display: flex;
-        gap: 60px;
-        font-weight: bold;
-      }
     }
   }
   // COMPLATE
@@ -37,7 +34,6 @@
   .activeHed {
     display: flex;
     align-items: center;
-    margin-left: 130px;
     width: 553px;
     height: 66px;
     .searchBtn {
@@ -81,4 +77,7 @@
       }
     }
   }
+}
+.menuHedText {
+
 }
