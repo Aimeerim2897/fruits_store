@@ -1,0 +1,83 @@
+.header {
+  border: 1px solid red;
+  // width: 1919px;
+  // height: 204px;
+  .boxHed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoHed {
+    display: flex;
+    align-items: center;
+    .logoHedIcone {
+      display: flex;
+      align-items: center;
+      color: #274C5B;
+      margin-right: 30px;
+      img {
+        width: 45px;
+        height: 53px;
+        padding-right: 8px;
+      }
+    }
+    .menuHedText {
+      display: flex;
+      gap: 60px;
+      color: #274C5B;
+    }
+  }
+  // COMPLATE
+
+
+
+  .activeHed {
+    display: flex;
+    align-items: center;
+    width: 553px;
+    height: 66px;
+    .searchBtn {
+      display: flex;
+      input {
+        width: 376px;
+        height: 66px;
+        border-radius: 36px;
+        padding-left: 36px; // для ввода текста!
+        background-color: #FAFAFA;
+        border: none;
+        outline: none;
+      }
+      img {
+        width: 56px;
+        height: 56px;
+        margin: auto;
+        margin-left: -60px;
+      }
+    }
+    .cartHed {
+      width: 159px;
+      margin-left: 18px;
+      div {
+        width: 159px;
+        height: 66px;
+        display: flex;
+        align-items: center;
+        border-radius: 36px;
+        border: 1px solid grey;
+        color: #274C5B;
+        p {
+          font-size: 18px;
+          margin-left: 10px;
+        }
+      }
+      img {
+        width: 56px;
+        height: 56px;
+        padding-left: 4px;
+      }
+    }
+  }
+}
+.menuHedText {
+
+}
