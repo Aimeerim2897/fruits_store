@@ -5,19 +5,19 @@
 	align-items: center;
 	margin-bottom: 90px;
 	margin-top: 133px;
-  img{
-    position: relative;
-  }
-  &_label{
-	background-color: #274c5b;
-	color: white;
-	font-size: 15px;
-	padding: 5px 12px;
-	border-radius: 8px;
-	margin-top: -480px;
-	margin-left: 30px;
-	position: absolute;
-  }
+	img {
+		position: relative;
+	}
+	&_label {
+		background-color: #274c5b;
+		color: white;
+		font-size: 15px;
+		padding: 5px 12px;
+		border-radius: 8px;
+		margin-top: -480px;
+		margin-left: 30px;
+		position: absolute;
+	}
 	&_info {
 		&_top {
 			margin-bottom: 27px;
@@ -35,6 +35,7 @@
 			}
 			img {
 				margin-bottom: 9px;
+				margin-left: 0px;
 			}
 			s {
 				font-size: 20px;
@@ -69,22 +70,25 @@
 		}
 	}
 }
-.descriptionBanner{
-  &_buttons{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 27px;
-  }
-  &_paragraph{
-	width: 1137px;
-	margin-left: 150px;
-	text-align: center;
-	color: #525c60;
-	margin-bottom: 140px;
-  }
+.descriptionBanner {
+	&_buttons {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		margin-bottom: 27px;
+	}
+	&_paragraph {
+		width: 1137px;
+		margin-left: 150px;
+		text-align: center;
+		color: #525c60;
+		margin-bottom: 140px;
+	}
 }
-
-
-
-
+.aboveProducts {
+	color: #274c5b;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 800;
+	margin-bottom: 40px;
+}

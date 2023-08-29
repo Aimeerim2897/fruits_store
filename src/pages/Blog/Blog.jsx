@@ -7,7 +7,7 @@ import human from "../../assets/human.png"
 import girl from "../../assets/girl.png"
 import garbages from "../../assets/garbages.png"
 
-import MainBackground from '../../components/MainBackground/MainBackground'
+import MainBackground from '../../components/ui/MainBackground/MainBackground'
 import NewsCard from '../../components/NewsCard/NewsCard'
 import cls from './Blog.module.scss'
 
