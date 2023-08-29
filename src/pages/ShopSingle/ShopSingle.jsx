@@ -7,7 +7,8 @@ import star from "../../assets/Star 7.svg";
 import arrow from "../../assets/Aerrow.png";
 import Button from "../../components/ui/Button/Button";
 // import SubscribeBanner from "../../components/ui/SubscribeBanner/SubscribeBanner";
-import SubscribeBanner from '../../components/ui/SubscribeBanner/SubscribeBanner'
+import SubscribeBanner from "../../components/ui/SubscribeBanner/SubscribeBanner";
+import ProductCard from "../../components/ui/ProductCard/ProductCard";
 const ShopSingle = () => {
 	return (
 		<div>
@@ -20,8 +21,13 @@ const ShopSingle = () => {
 					<div className={cls.healthBanner_info}>
 						<div className={cls.healthBanner_info_top}>
 							<h5>Health Pistachios</h5>
-
-							<img src={star} alt='' />
+							<div>
+								<img src={star} alt='' />
+								<img src={star} alt='' />
+								<img src={star} alt='' />
+								<img src={star} alt='' />
+								<img src={star} alt='' />
+							</div>
 							<p>
 								<s>$20.00</s>
 								<span>$13.00</span>
@@ -76,6 +82,8 @@ const ShopSingle = () => {
 						and 80% of the carbs in raw.
 					</div>
 				</div>
+				<p className={cls.aboveProducts}>Related Products</p>
+				<ProductCard lastIndex={4} />
 				<SubscribeBanner />
 			</div>
 		</div>

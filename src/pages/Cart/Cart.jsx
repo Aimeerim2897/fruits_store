@@ -33,7 +33,7 @@ const Cart = () => {
 						<div className={cls.product_details}>
 							<p className={cls.product_details_price}>$29</p>
 							<div className={cls.product_details_counter}>
-								<p>+</p>
+								<p>-</p>
 								<p>1</p>
 								<p>+</p>
 							</div>
