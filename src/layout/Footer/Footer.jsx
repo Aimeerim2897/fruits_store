@@ -18,7 +18,7 @@ const Footer = () => {
 
           </div>
         </div>
-        <div className={cls.line1} style={{borderLeft: "1px solid red", marginTop: "20px"}}></div>
+        <div className={cls.line1} style={{borderLeft: "1px solid #d4d4d4", marginTop: "20px"}}></div>
         <div className={cls.box2}>
           <div className={cls.logoHedIcone}>
             <img src="/src/assets/Logo.png" alt="" />

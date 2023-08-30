@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../../../redux/productSlice";
@@ -20,9 +21,12 @@ const ProductCard = ({ lastIndex }) => {
 	return (
 		<div
 			style={{ display: "flex", flexWrap: "wrap", gap: 10, marginBottom: 120 }}>
-			{products.slice(0, lastIndex || products.length).map(el => {
-				return <Product key={el.id} items={el} />;
-			})}
+			{products.slice(0, lastIndex || products.length).map(product =>(
+        <Link to={`/shopSingle/${product.id}`} key={product.id}>
+          <Product items={product} />
+        </Link>
+      )
+			)}
 		</div>
 	);
 };
