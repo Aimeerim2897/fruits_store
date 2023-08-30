@@ -1,0 +1,15 @@
+.wrap {
+  position: absolute;
+  // border: 1px solid red;
+  top: 70px;
+  width: 376px;
+  .items a > div {
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    background-color: #FFF;
+    border-radius: 16px;
+    border-bottom: 1px solid grey;
+    color: black;
+  }
+}
