@@ -1,5 +1,6 @@
 import React from 'react'
 import './MainBackground.scss'
+
 const MainBackground = (props) => {
   const {children, backgroundImage} = props;
   return (

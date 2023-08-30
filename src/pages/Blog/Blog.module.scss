@@ -1,0 +1,106 @@
+.flex {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.newsContentWrap {
+  margin-bottom: 120px;
+}
+
+.newsContent {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 17px;
+  width: 580px;
+  height: 283px;
+  background-color: #fff;
+  box-shadow: 0 20px 35px rgba(167, 167, 167, 0.25);
+  padding: 54px 57px 54px 57px;
+  border-radius: 30px;
+}
+
+.rachi {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 19px 8px;
+  position: relative;
+  top: -44px;
+  left: 20px;
+}
+
+.info {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  top: -45px;
+  position: relative;
+  width: 465px;
+  height: 29px;
+}
+
+.text {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%;
+  width: 444px;
+  height: 62px;
+  flex-shrink: 0;
+  position: relative;
+  top: -43px;
+}
+
+.more {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 98px;
+  height: 32px;
+  padding: 19px 0px 9px;
+  position: relative;
+  top: -45px;
+}
+
+.arrowIcon {
+  position: relative;
+  left: 102px;
+  top: -66px;
+}
+
+.newsDate {
+  width: 82px;
+  height: 82px;
+  background-color: #fff;
+  position: absolute;
+  top: 43px;
+  left: 32px;
+  border-radius: 50%;
+}
+
+.nov {
+  color: #274C5B;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: relative;
+  padding: 12px 18px 9px 20px;
+  height: 51px;
+}

@@ -1,0 +1,49 @@
+.image {
+  background-image: url('../../assets/flower.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fault {
+  color: #8FA8A8;
+  font-size: 280px;
+}
+
+.text {
+  font-size: 70px;
+  color: #274C5B;
+}
+
+.text2 {
+  color: #525C60;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn {
+  margin-top: 35px;
+  border-radius: 16px;
+  background: #274C5B;
+  color: #fff;
+  height: 80px;
+  width: 275px;
+}
+
+
+.notFound {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .p-404 {
+      max-width: 533px;
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+.icon {
+  margin-left: 15px;
+}
