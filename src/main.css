@@ -13,3 +13,8 @@ a {
 ul , ol {
   list-style: none;
 }
+.hedContainer {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 69px 162px ;
+}
