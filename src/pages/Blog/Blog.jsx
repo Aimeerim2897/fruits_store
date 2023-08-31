@@ -59,7 +59,6 @@ const Blog = () => {
                 {more}
                 {arrowIcon}
               </div>
-
             </NewsCard>
             <NewsCard bgImg={pomidor} >
               <div className={cls.newsDate}>

@@ -24,3 +24,7 @@ ul , ol {
   margin: 0 auto;
   padding: 69px 162px ;
 }
+.active {
+  color: var(--color-active);
+  cursor: default;
+}

@@ -1,5 +1,5 @@
 import cls from './Header.module.scss'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -13,22 +13,21 @@ const Header = () => {
                 <h1>Organick</h1>
               </div>
               <div className={cls.menuHedText}>
-
-                <Link to={'/'}>
+                <NavLink to={'/'}>
                   Home
-                </Link>
-                <Link to={'/'}>
+                </NavLink>
+                <NavLink to={'/page-not-found'}>
                   About
-                </Link>
-                <Link to={'/'}>
+                </NavLink>
+                <NavLink to={'/shop'}>
                   Shop
-                </Link>
-                <Link to={'/'}>
+                </NavLink>
+                <NavLink to={'/page-not-found'}>
                   Projects
-                </Link>
-                <Link to={'/'}>
+                </NavLink>
+                <NavLink to={'/blog'}>
                   News
-                </Link>
+                </NavLink>
               </div>
             </div>
             <div className={cls.activeHed}>
