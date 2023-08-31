@@ -1,8 +1,20 @@
 import React from "react";
 import cls from "./Cart.module.scss";
-import cartImage from "../../assets/cart-picture.jpg";
-import star from "../../assets/Star 7.svg";
+
+import CartCard from "./CartCard";
+import { useSelector } from "react-redux/es/hooks/useSelector";
+
+
 const Cart = () => {
+  const { goods } = useSelector(state => state.cart);
+	console.log(goods);
+	let total = 0;
+	if (goods.length > 0) {
+		total = goods?.reduce((total, next) => {
+			const result = total + next.price * next.quantity;
+			return result;
+		}, 0);
+	}
 	return (
 		<div>
 			<div className={cls.cartTop}>
@@ -16,41 +28,19 @@ const Cart = () => {
 					</div>
 				</div>
 				<div className='container'>
-					<div className={cls.product}>
-						<div className={cls.product_info}>
-							<img src={cartImage} alt='' />
-							<div className={cls.product_info_right}>
-								<p className={cls.product_info_right_name}> White Nuts</p>
-								<p className={cls.product_info_right_category}>
-									Category: Millets
-								</p>
-								<div className={cls.product_info_right_rating}>
-									<p>Rating :</p>
-									<img src={star} alt='' />
-								</div>
-							</div>
-						</div>
-						<div className={cls.product_details}>
-							<p className={cls.product_details_price}>$29</p>
-							<div className={cls.product_details_counter}>
-								<p>-</p>
-								<p>1</p>
-								<p>+</p>
-							</div>
-							<p className={cls.product_details_totalPrice}>$29</p>
-							<p className={cls.product_details_trash}>
-								<i
-									class='bi bi-trash'
-									style={{ fontSize: 30, color: "#274C5B" }}></i>
-							</p>
-						</div>
-					</div>
+					{goods.length === 0 ? (
+						<h3>The cart is empty</h3>
+					) : (
+						goods?.map(item => <CartCard {...item} />)
+					)}
 					<div className={cls.grandTotal}>
 						<div className={cls.grandTotal_price}>
 							<p className={cls.grandTotal_price_name}>Grand Total: </p>
-							<p className={cls.grandTotal_price_number}>$518.00</p>
+							<p className={cls.grandTotal_price_number}>${total}</p>
 						</div>
-						<button style={{padding: '16px 24px', fontSize: 20}}>Proceed To Checkout</button>
+						<button style={{ padding: "16px 24px", fontSize: 20 }}>
+							Proceed To Checkout
+						</button>
 					</div>
 				</div>
 			</div>

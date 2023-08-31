@@ -1,10 +1,9 @@
 .header {
-  // width: 1919px;
-  // height: 204px;
   .boxHed {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 69px auto;
   }
   .logoHed {
     display: flex;
@@ -36,6 +35,7 @@
     width: 553px;
     height: 66px;
     .searchBtn {
+      position: relative;
       display: flex;
       input {
         width: 376px;
